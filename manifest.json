@@ -1,19 +1,19 @@
 {
-	"files": {
-		"README.md": "018724c542f21b763270ea38ab5752d2e958a75f7de48790fab829b6135433ee",
-		"index.js": "5433621acbf1ccd9ebb1c36a50cafd3838857aad1bb8fcc15963132063161233",
-		"module.json": "d7871af5575c88b47deed63e1ff91840173ba32297f2c011e8298abedf39ab4d"
-	},
-	"defs": {
-		"C_PARTY_MARKER": 1,
-		"S_CHANGE_PARTY_MANAGER": 2,
-		"S_CREATURE_LIFE": 3,
-		"S_LEAVE_PARTY": "raw",
-		"S_LEAVE_PARTY_MEMBER": 2,
-		"S_LOGIN": [13,14],
-		"S_PARTY_MARKER": 1,
-		"S_PARTY_MEMBER_LIST": 7,
-		"S_SPAWN_ME": 3,
-		"S_SPAWN_USER": 15
-	}
+    "files": {
+        "README.md": "018724c542f21b763270ea38ab5752d2e958a75f7de48790fab829b6135433ee",
+        "index.js": "149200bd507496265ad977e93c085d0eaf565e2a6fe76bd37e01666ebac79a8b",
+        "module.json": "fe6daf71464a45f368c796c71a5736cbe2128be550269f45f9507513a9a2ed2b"
+    },
+    "defs": {
+        "C_PARTY_MARKER": 1,
+        "S_CHANGE_PARTY_MANAGER": 2,
+        "S_CREATURE_LIFE": 3,
+        "S_LEAVE_PARTY": "raw",
+        "S_LEAVE_PARTY_MEMBER": 2,
+        "S_LOGIN": 14,
+        "S_PARTY_MARKER": 1,
+        "S_PARTY_MEMBER_LIST": 7,
+        "S_SPAWN_ME": 3,
+        "S_SPAWN_USER": 17
+    }
 }

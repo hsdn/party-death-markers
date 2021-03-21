@@ -166,7 +166,7 @@ module.exports = function PartyDeathMarkers (dispatch) {
 		}
 	}
 	
-	dispatch.hook('S_LOGIN', dispatch.majorPatchVersion >= 86 ? 14 : 13, ({playerId}) => {	
+	dispatch.hook('S_LOGIN', 14, ({playerId}) => {	
 		partyMembers.length = 0
 		deadPeople.length = 0
 		Markers.length = 0
@@ -194,7 +194,7 @@ module.exports = function PartyDeathMarkers (dispatch) {
 	})
 	
 	dispatch.hook('S_SPAWN_ME', 3, DeadOrAlive)
-	dispatch.hook('S_SPAWN_USER', 15, DeadOrAlive)
+	dispatch.hook('S_SPAWN_USER', 17, DeadOrAlive)
 	dispatch.hook('S_CREATURE_LIFE', 3, DeadOrAlive)
 
 	dispatch.hook('S_LEAVE_PARTY_MEMBER', 2, ({playerId}) => {
