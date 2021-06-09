@@ -1,8 +1,8 @@
 {
     "files": {
         "README.md": "018724c542f21b763270ea38ab5752d2e958a75f7de48790fab829b6135433ee",
-        "index.js": "149200bd507496265ad977e93c085d0eaf565e2a6fe76bd37e01666ebac79a8b",
-        "module.json": "fe6daf71464a45f368c796c71a5736cbe2128be550269f45f9507513a9a2ed2b"
+        "index.js": "bc2e5a51cd59c7a2ff8ce7366db46f32a36131e7f89a55c5b218f47b263f1196",
+        "module.json": "96478f8d2ecdcb6426beb569b849a4e8d0cf876a02871c719a6e9e6990f783b1"
     },
     "defs": {
         "C_PARTY_MARKER": 1,
@@ -12,7 +12,7 @@
         "S_LEAVE_PARTY_MEMBER": 2,
         "S_LOGIN": 14,
         "S_PARTY_MARKER": 1,
-        "S_PARTY_MEMBER_LIST": 7,
+        "S_PARTY_MEMBER_LIST": 9,
         "S_SPAWN_ME": 3,
         "S_SPAWN_USER": 17
     }

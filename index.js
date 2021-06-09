@@ -187,7 +187,7 @@ module.exports = function PartyDeathMarkers (dispatch) {
         checkLeader(playerId)
     })
 	
-	dispatch.hook('S_PARTY_MEMBER_LIST', 7, ({members, leaderPlayerId}) => {
+	dispatch.hook('S_PARTY_MEMBER_LIST', 9, ({members, leaderPlayerId}) => {
 		checkLeader(leaderPlayerId)
 		partyMembers = members
 		//console.log(`in party with ${partyMembers.length}`)
