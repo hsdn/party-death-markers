@@ -166,7 +166,7 @@ module.exports = function PartyDeathMarkers (dispatch) {
 		}
 	}
 	
-	dispatch.hook('S_LOGIN', 14, ({playerId}) => {	
+	dispatch.hook('S_LOGIN', 15, ({playerId}) => {	
 		partyMembers.length = 0
 		deadPeople.length = 0
 		Markers.length = 0
