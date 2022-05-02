@@ -1,8 +1,8 @@
 {
     "files": {
         "README.md": "018724c542f21b763270ea38ab5752d2e958a75f7de48790fab829b6135433ee",
-        "index.js": "3fad0e0fb09c2ebfc30853196d26deb9bd9b8d6f9b30583f30bf73f76a487609",
-        "module.json": "2b2a93da5173a1f5fecc0d3a709bdfc90cea7830142b884d9f3ad2f06bef091e"
+        "index.js": "7c315d261169f945175aca78b9910636454cdb11398d6a3a1555f5cab5a441bd",
+        "module.json": "cf709f5d1e6a327269b8e161c42e45addcab8099cafac5a689043e6107b8667f"
     },
     "defs": {
         "C_PARTY_MARKER": 1,
@@ -10,10 +10,10 @@
         "S_CREATURE_LIFE": 3,
         "S_LEAVE_PARTY": "raw",
         "S_LEAVE_PARTY_MEMBER": 2,
-        "S_LOGIN": 15,
+        "S_LOGIN": 14,
         "S_PARTY_MARKER": 1,
-        "S_PARTY_MEMBER_LIST": 9,
+        "S_PARTY_MEMBER_LIST": 7,
         "S_SPAWN_ME": 3,
-        "S_SPAWN_USER": 17
+        "S_SPAWN_USER": [15,17]
     }
 }
