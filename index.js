@@ -142,9 +142,9 @@ module.exports = function PartyDeathMarkers(dispatch) {
 		checkLeader(playerId);
 	});
 
-	dispatch.hook("S_PARTY_MEMBER_LIST", dispatch.majorPatchVersion >= 106 ? 9 : 7, ({ members, leaderPlayerId }) => {
-		checkLeader(leaderPlayerId);
-		partyMembers = members;
+	dispatch.hook("S_PARTY_MEMBER_LIST", dispatch.majorPatchVersion >= 69 ? 8 : 7, (event) => {
+		checkLeader(event.leaderPlayerId || event.leader.playerId);
+		partyMembers = event.members;
 	});
 
 	dispatch.hook("S_SPAWN_ME", 3, DeadOrAlive);
